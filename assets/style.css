@@ -1,0 +1,18 @@
+#startUpTxt{
+    padding:0;
+    font-size:24px;
+    height:30%;
+    background-color: black;
+    color:white;
+    clear:both;
+}
+body{
+    margin:0;
+    margin-top:0px;
+    height:100%;
+}
+#gameBox{
+    height:400px;
+    width:100%;
+    background-image:url("1_Km98PgzRp9yRYfVZeSzwzQ.png");
+}

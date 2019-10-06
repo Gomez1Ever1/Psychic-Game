@@ -2,13 +2,21 @@
 <html>
 
 <head>
-    <link>
+    <link rel="stylesheet" type="text/css" href="assets\style.css">
 </head>
 
 <body>
-    <p id="startUpTxt" onkeyup="getWord()">Press any key to start!</p>
-    <div id="answer"></div>
-    <input type="text" id="inPut" onkeyup="guesS()">
+    <div id="startUpTxt" onkeyup=gameStart>
+        <p>Guess what letter I'm thinking!</p>
+        <li>Wins:<span id="ws2"></span></li>
+        <li>Guesses Left:<span id="gleft"></span></li>
+        <li>Losses:<span id="loss"></span></li>
+        <li>your guesses so far:<span id="myguess"></span></li>
+    </div>
+    <div id="gameBox">
+
+    </div>
 </body>
+<script type="text/javascript" src="assets\script.js"></script>
 
 </html>
